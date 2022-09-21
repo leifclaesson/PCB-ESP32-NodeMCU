@@ -1,0 +1,313 @@
+{
+  "uuid": "26cb5444add847c108ceb7e8cd188744",
+  "path": "Offline/ESP32%20NodeMCU%20v1.1",
+  "name": "ESP32 NodeMCU v1.1",
+  "content": "",
+  "created_at": "2022-09-16 21:04:10",
+  "updated_at": "2022-09-17 22:59:19",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e3fb99560555e141a0dafd28a61f0332",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "d4a844d81a8421ba55bf9bbe0176c427": 5,
+        "286952e69a532726bf48e4bcafe6e878": 2,
+        "7ead2c3f0e64d4777e91f81ba28fb127": 2,
+        "c8c2c558fac9410d08cd9c984c6e32bd": 1,
+        "2f2c771dc147fb0210616ca49e419712": 3,
+        "7a0c79967d0e7ae293044fb82790899a": 4,
+        "588dac9f81df8f83843513972963b454": 1,
+        "ed090a658e48446c833f1971f77df530": 1,
+        "8594922bf7656e1a593fe27b198cf7ff": 1,
+        "584d673271dd43738fb1ad2dd2772015": 1,
+        "e11771cc556d68362545db4859eeb82e": 1,
+        "6528a688311e481689ec4d5e17aa7ecd": 1,
+        "17eb339750ed2e3756214c176201643d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          3,
+          "C0805",
+          "C1,C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21A106KAYNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15850",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "7a0c79967d0e7ae293044fb82790899a"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "C0805",
+          "C4,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0805KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Supplier Part": "C49678",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "2f2c771dc147fb0210616ca49e419712"
+          }
+        ],
+        [
+          "1uF",
+          1,
+          "C0805",
+          "C5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21B105KBFNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C28323",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "e11771cc556d68362545db4859eeb82e"
+          }
+        ],
+        [
+          "10uF",
+          1,
+          "C0805",
+          "C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21A106KAYNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C15850",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "7a0c79967d0e7ae293044fb82790899a"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0805KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C49678",
+            "puuid": "bbc61cb2bd3840b290cf4f8db68b3c00",
+            "uuid": "2f2c771dc147fb0210616ca49e419712"
+          }
+        ],
+        [
+          "STATUS (BLUE)",
+          1,
+          "LED0603-R-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "EVERLIGHT",
+            "BOM_Manufacturer Part": "19-217/BHC-ZL1M2RY/3T",
+            "BOM_Supplier Part": "C72041",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "8594922bf7656e1a593fe27b198cf7ff"
+          }
+        ],
+        [
+          "YELLOW",
+          1,
+          "LED0805-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "17-21SUYC/TR8",
+            "BOM_Supplier Part": "C2296",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "a267edbe7c3c4a16b85fd51e936458d0",
+            "uuid": "c8c2c558fac9410d08cd9c984c6e32bd"
+          }
+        ],
+        [
+          "Headers  Pins1x15P 2.54mm",
+          2,
+          "HDR-TH_15P-P2.54-V-M-NOSILK",
+          "H1,H2",
+          {
+            "BOM_Supplier Part": "C54102",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Headers  Pins1x15P 2.54mm",
+            "puuid": "9da666bf1b0543e1bf3474c66bfccaf7",
+            "uuid": "286952e69a532726bf48e4bcafe6e878"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x5",
+          1,
+          "HDR-5X1/2.54",
+          "P1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "LCSC",
+            "BOM_Manufacturer Part": "Header-Male-2.54_1x5",
+            "puuid": "4d6b9376ee4529c70316a34e580ced22",
+            "uuid": "ed090a658e48446c833f1971f77df530"
+          }
+        ],
+        [
+          "Header-Male-2.54_1x6",
+          1,
+          "HDR-TH_6P-P2.54-V",
+          "P2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "puuid": "fd9fc9865419407ab6a588b47dec0227",
+            "uuid": "17eb339750ed2e3756214c176201643d"
+          }
+        ],
+        [
+          "10K",
+          5,
+          "R0805",
+          "R1,R4,R5,R6,R7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F1002T5E",
+            "BOM_Supplier Part": "C17414",
+            "BOM_JLCPCB SMD": "Yes",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Paste Type": "base",
+            "puuid": "769626f169ec49d9867bc27eb696b6b9",
+            "uuid": "d4a844d81a8421ba55bf9bbe0176c427"
+          }
+        ],
+        [
+          "470Ω",
+          2,
+          "R0805",
+          "R2,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F4700T5E",
+            "BOM_Supplier Part": "C17710",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "7ead2c3f0e64d4777e91f81ba28fb127"
+          }
+        ],
+        [
+          "RESET",
+          1,
+          "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C318884",
+            "BOM_Manufacturer": "XKB Enterprise",
+            "BOM_Manufacturer Part": "TS-1187A-B-A-B",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "c35bad1cd8654778a92d4d3124fa62da",
+            "uuid": "584d673271dd43738fb1ad2dd2772015"
+          }
+        ],
+        [
+          "ESP32",
+          1,
+          "WIFIM-SMD_38P-L19.2-W18.0-P1.27",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328062",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "ESP32",
+            "BOM_LCSC Assembly": "No",
+            "BOM_Paste Type": "expand",
+            "puuid": "02cdf0e435454a8ba00ddc0b594c4182",
+            "uuid": "6528a688311e481689ec4d5e17aa7ecd"
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-3.3",
+            "BOM_LCSC Assembly": "Yes",
+            "BOM_Supplier Part": "C6186",
+            "puuid": "9082a541b5494ed9bac7de7d69bd2f2d",
+            "uuid": "588dac9f81df8f83843513972963b454"
+          }
+        ]
+      ],
+      "updateTime": 1663430359,
+      "createTime": 1662296941,
+      "histories": [],
+      "created_at": "2022-09-04 20:09:01",
+      "updated_at": "2022-09-17 22:59:19"
+    },
+    {
+      "uuid": "cb269f2436cac6f887b82743f761c782",
+      "title": "PCB_ESP32 NodeMCU",
+      "filename": "PCB_ESP32 NodeMCU.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fd9fc9865419407ab6a588b47dec0227": 1,
+        "9da666bf1b0543e1bf3474c66bfccaf7": 2,
+        "bbc61cb2bd3840b290cf4f8db68b3c00": 7,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 1,
+        "a267edbe7c3c4a16b85fd51e936458d0": 1,
+        "4d6b9376ee4529c70316a34e580ced22": 1,
+        "769626f169ec49d9867bc27eb696b6b9": 5,
+        "b60f399a7a7e41848b2be1eb49c79141": 2,
+        "c35bad1cd8654778a92d4d3124fa62da": 1,
+        "02cdf0e435454a8ba00ddc0b594c4182": 1,
+        "9082a541b5494ed9bac7de7d69bd2f2d": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 1
+      },
+      "BOM": [],
+      "updateTime": 1663337956,
+      "createTime": 1662300573,
+      "histories": [],
+      "created_at": "2022-09-04 21:09:33",
+      "updated_at": "2022-09-16 21:19:16"
+    }
+  ],
+  "sort": [],
+  "title": "ESP32 NodeMCU v1.1",
+  "foldername": "ESP32 NodeMCU v1.1",
+  "schfilename": "ESP32 NodeMCU v1.1.json",
+  "schfilemtime": 1663430359576
+}
