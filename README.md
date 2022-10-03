@@ -2,7 +2,7 @@
 
 ESP32 in NodeMCU form factor
 
-![1663339818915](https://user-images.githubusercontent.com/775408/191389593-73e564d9-d6e2-4c8c-8c7e-17e420b33442.JPEG)
+![1664771660316](https://user-images.githubusercontent.com/775408/193502424-999a1ee7-d0cc-465b-abae-d4cd54896b18.JPEG)
 
 * v1.1 is full size NodeMCU board
 * v1.2 completely cuts off the antenna part for significantly improved RF performance.
